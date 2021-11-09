@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>json3</title>
+</head>
+<body>
+<h2> create json </h2>
+<p id="demo"> </p>
+<script>
+var jsonobj =[{"name":"Uddeshya","age":22,"city":"Lucknow"},{"name":"Anubhav","age":22,"city":"Raebraeli"},{"name":"Vishal","age":22,"city":"Ballia"}];
+for(let i=0;i<jsonobj.length;i++)
+{
+document.write(jsonobj[i].name+"<br>");
+}
+document.write(jsonobj[0].name);
+document.write(jsonobj[1].age);
+document.write(jsonobj[2].city);
+
+ </script>
+ 
+ 
+ </body>
+ </html>
