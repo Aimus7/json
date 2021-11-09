@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>json2</title>
+</head>
+<body>
+<h2> Creating an Array from a literal</h2>
+<p id="demo"> </p>
+<script>
+const myArray =["MCA|1","MCA|2","MCA|3","MCA|4"];
+
+document.getElementById("demo").innerHTML=myArray;
+ </script>
+ 
+ 
+ </body>
+ </html>
