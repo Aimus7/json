@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>json</title>
+</head>
+<body>
+<h2> create json </h2>
+<p id="demo"></p>
+<script>
+var jsonobject ={name:"Uddeshya",age:22}
+var jsonstr= JSON.stringify(jsonobject);
+jsonobject.age=23;
+
+document.write(jsonstr+"<br>");
+document.write(jsonobject.name+"---"+jsonobject.age+"<br>");
+ </script>
+ 
+ </body>
+ </html>
