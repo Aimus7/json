@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>json1</title>
+</head>
+<body>
+<h2> create json </h2>
+<p id="demo"> </p>
+<script>
+const txt ='{"name":"Uddeshya","age":22,"city":"India"}'
+const obj = JSON.parse(txt);
+document.getElementById("demo").innerHTML=obj.name+","+obj.age;
+ </script>
+ 
+ 
+ </body>
+ </html>
